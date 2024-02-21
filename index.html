@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <script src='script.js'></script>
+</head>
+<body>
+   
+        <div class="hero">
+            
+            <h1 class="Heading">Tizen Image Gallery</h1>
+            <p>Exploration is really the essence of the human spirit.</p>
+            <br></br>
+            
+        </div>
+        <div class="row">
+            <div class="column">
+              <img src="A1.webp"  style="width:100%" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="A2.webp"  style="width:100%" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="A3.webp"  style="width:100%" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="A4.webp"  style="width:100%" onclick="myFunction(this);">
+            </div>
+          </div>
+          
+          <div class="container">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImg" style="width:100%">
+            <div id="imgtext"></div>
+          </div>
+          
+</body>
+</html>
+
+

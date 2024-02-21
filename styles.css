@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: url(https://img.redro.pl/obrazy/dark-night-sky-starry-sky-infinity-space-with-shiny-stars-vector-background-400-205575202.jpg);
+    
+}
+
+
+h1{
+    
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    display: flex;
+    color: orangered;
+    text-align: center;
+    justify-content: center;
+    padding-top:70px;
+    padding-right: 100px;
+    animation: blink 1.5s linear infinite;
+}
+@keyframes blink {
+    0% {
+        opacity: 2;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 2;
+      }
+    
+}
+p{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    padding-right: 100px;
+}
+
+.column {
+    float: left;
+    width: 12%;
+    padding: 20px;
+    transform: rotate(7deg);
+ 
+  }
+  .column img { 
+    margin: 100px;
+    cursor: pointer; 
+    border: 2px solid #BFBFBF;
+  box-shadow: 5px 5px 3px #acacac;
+  }
+  
+  .column img:hover {
+  transform: scale(1.2);
+  }
+
+  .container {
+    position: relative;
+    float: right;
+    right: 200px;
+    width:20%;
+    height: 20%;
+    display: none;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    transform: rotate(-8deg);
+    
+  }
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
